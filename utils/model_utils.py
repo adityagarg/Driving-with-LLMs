@@ -35,7 +35,7 @@ def default_generation_config(**kwargs):
 
 
 def load_model(
-    base_model: str = "decapoda-research/llama-7b-hf",  # the only required argument
+    base_model: str = "meta-llama/Llama-2-7b-chat-hf",  # the only required argument
     lora_r: int = 8,
     lora_alpha: int = 16,
     lora_dropout: float = 0.05,
