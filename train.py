@@ -129,7 +129,7 @@ def train(
     # training hyperparams
     batch_size: int = 128,
     micro_batch_size: int = 32,
-    num_epochs: int = 5,
+    num_epochs: int = 1,
     learning_rate: float = 3e-4,
     val_set_size: int = 1e6,
     eval_steps: int = 10,
